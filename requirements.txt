@@ -1,28 +1,20 @@
-Webpack (imports/exports) - Собирает все модули в один JS файл
-    Babel - пропускает код JS для того, чтобы все браузера поддерживали код
-            (переводит код из новых версий в определенные старые)
-    Scss - препроцессор для стилей
-    Eslint - в процессе написания кода следить за его чистотой
-    2 Modes:
-        - Dev
-            Dev Server (Перезагружает автоматически окно браузера при изменении в коде),
-            SourceMaps (Указывает на те модули, где конкретно вели разработку (не на весь JS файл)),
-            Eslint (Инструмент для поддержки чистоты кода и для содержания кода в едином стиле),
-            Not Minified JS & CSS.
-        - Prod
-            Minified Code
-Git - позволяет следить за версионностью приложения (Система контроля версий)
-    Production
-        1.0.0
-        0 - --------
-    Development
-        1.0.2
-        1 - ---------- + --  PR -> PR+
-        2 - ------------     |  -> delete
+Webpack (imports/exports)
+	Babel
+	Scss
+	Eslint
+	2 Modes
+		- Dev
+			Dev Server, SourceMaps, Eslint, Not Minified JS & CSS
+		- Prod
+			Minified Code
+Git
 
-        and...
+	Production
+		2.0.0
+		0 ---------------
+	Development
+		2.0.2
+		1 -----------------
 
-        1 - ------------
 
-        and after that prod become 2.0.0 and so on...
 
